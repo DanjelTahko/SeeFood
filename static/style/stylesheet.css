@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+div.header {
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+
+    color: white;
+    font-family: 'arial';
+    font-size: 100px;
+    -webkit-text-stroke: 2px black;
+}
+
+.leftbox {
+    float: left;
+    width: 60%;
+
+}
+
+.rightbox {
+    float: right;
+    width: 38%;
+
+}
+
+.image {
+    margin-left: 30%;
+}
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.form {
+    margin: 50% 20%;
+}
+
+
+

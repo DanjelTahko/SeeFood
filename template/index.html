@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style/stylesheet.css')}}">
+    </head>
+    <body>
+
+        <div class="header"> SEEFOOD </div>
+
+        <div class="boady">
+            <div class="leftbox">
+                <div class="image">
+                    <img src="{{ image }}">
+                    <h3> {{ prediction }}</h3>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="form">
+                    <form method="post" enctype="multipart/form-data">
+                        <input type="file" name="img-file">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
